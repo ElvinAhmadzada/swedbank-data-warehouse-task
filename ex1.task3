@@ -1,9 +1,6 @@
-⦁	List the employees with the lowest salary per each department
+⦁	Display the number of employees per city having not less than 34 employees
 
-SELECT department_name, employee_id, first_name, last_name, salary
+SELECT city, COUNT(*) AS num_employees
 FROM employees
-WHERE (department_name, salary) IN (
-    SELECT department_name, MIN(salary)
-    FROM employees
-    GROUP BY department_name
-);
+GROUP BY city
+HAVING COUNT(*) >= 34;
