@@ -1,4 +1,4 @@
-// that code is for listing the lowest and highest salary per city, the total number of employees per city, the number of employees earning the lowest salary, the number of employees earning the highest salary, the percentage of employees earning the highest salary per city and the percentage of employees earning the lowest salary per city. This information should be shown as 1 row per city containing all the information requested. 
+⦁	List the lowest and highest salary per city, the total number of employees per city, the number of employees earning the lowest salary, the number of employees earning the highest salary, the percentage of employees earning the highest salary per city and the percentage of employees earning the lowest salary per city. This information should be shown as 1 row per city containing all the information requested. 
 
 SELECT 
     city, 
