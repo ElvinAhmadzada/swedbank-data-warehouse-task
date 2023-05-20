@@ -1,4 +1,5 @@
-They wants us to write information about the employees in the position of sy_ana.
+According to the Jobs table (provided in company_db.sql script) what could you tell about the employees table for the System Analyst position (SY_ANA)? 
+
 
 1) We need to find these employees first. For this we will use this code:
 
