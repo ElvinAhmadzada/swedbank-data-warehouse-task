@@ -1,0 +1,12 @@
+They wants us to write information about the employees in the position of sy_ana.
+
+1) We need to find these employees first. For this we will use this code:
+
+SELECT *
+FROM employees
+WHERE job_id = 'SY_ANA';
+
+
+2) Now information about employees:
+
+All have department_id 60, all have COMMISSION_PCTs 0.
